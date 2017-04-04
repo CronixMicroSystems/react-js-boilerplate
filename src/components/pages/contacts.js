@@ -44,9 +44,7 @@ class Contacts extends Component {
   fnPhoneChange (value) { this.setState({Phone: value}) }
   fnMessageChange (value) { this.setState({Message: value}) }
 
-  fnSend () {
-
-  }
+  fnSend () {}
 
   fnError (name, status) { this.setState({Errors: ValidatorError(name, status, this.state.Errors)}) }
 
