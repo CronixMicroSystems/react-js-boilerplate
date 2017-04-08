@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "src",
+  "private": false,
+  "name": "React-js-boilerplate",
   "version": "1.0.0",
   "description": "",
   "homepage": "",
@@ -105,8 +105,5 @@
     "webpack-dev-middleware": "^1.8.4",
     "webpack-dev-server": "^2.3.0",
     "webpack-hot-middleware": "^2.13.2"
-  },
-  "devDependencies": {
-    "babel-plugin-transform-class-properties": "^6.23.0"
   }
 }

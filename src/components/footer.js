@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import {Component} from 'react'
 import {connect} from 'react-redux'
 
 class Footer extends Component {
@@ -11,14 +11,7 @@ class Footer extends Component {
     }
   }
 
-  render () {
-    return (
-      <footer className="site-footer clear-fix">
-        <div className="pull-left">Copyright © 2017</div>
-        <div className="pull-right">v{this.state.version}</div>
-      </footer>
-    )
-  }
+  render () { return null }
 }
 
 function mapStateToProps () { return {} }

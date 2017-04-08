@@ -85,7 +85,7 @@ class Sidebar extends Component {
 
     let mailContent = userRoleId === ROLES.HOW ? content.mail : ''
     let usersContent = userRoleId === ROLES.HOW ? content.users : ''
-    let contactsContent = userRoleId !== ROLES.HOW ? content.contacts : ''
+    let contactsContent = userRoleId === ROLES.HOW ? content.contacts : ''
 
     return (
       <div className="sidebar-main">

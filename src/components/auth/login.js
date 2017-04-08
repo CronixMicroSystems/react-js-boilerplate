@@ -12,7 +12,7 @@ import validator from 'validator'
 
 import { fnLoginUser } from '../../actions'
 
-const LOGO = require('../../images/header_logo.jpg')
+const LOGO = require('../../img/header_logo.jpg')
 
 const STYLES = {
   floatingLabelFocusStyle: {

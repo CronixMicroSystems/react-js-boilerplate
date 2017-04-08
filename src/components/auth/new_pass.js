@@ -13,7 +13,7 @@ import validator from 'validator'
 import { history } from '../../store'
 import { fnNewPassword, fnChangeToken } from '../../actions'
 
-const LOGO = require('../../images/header_logo.jpg')
+const LOGO = require('../../img/header_logo.jpg')
 
 const STYLES = {
   floatingLabelFocusStyle: {

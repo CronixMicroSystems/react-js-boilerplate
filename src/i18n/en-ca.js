@@ -66,7 +66,7 @@ export default {
   },
   Sidebar: {
     ...COMMON,
-    brand: 'React-boilerplate',
+    brand: 'React-js-boilerplate',
     generalMenuLabel: 'Common',
     moreMenuLabel: 'Other',
     usersMenuItem: 'Users',

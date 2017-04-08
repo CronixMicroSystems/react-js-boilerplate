@@ -10,7 +10,7 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import Paper from 'material-ui/Paper'
 import {I18n, Translate} from 'react-redux-i18n'
 
-const LOGO = require('../../images/header_logo.jpg')
+const LOGO = require('../../img/header_logo.jpg')
 
 class NotFound extends Component {
 

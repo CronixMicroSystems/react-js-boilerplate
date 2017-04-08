@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-const IMG = require('../../images/header_logo.jpg')
+const IMG = require('../../img/header_logo.jpg')
 
 class NetworkSpinner extends Component {
 
