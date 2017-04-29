@@ -2,7 +2,7 @@ import jwtDecode from 'jwt-decode'
 
 const LOCALE = window.localStorage.getItem('locale') || 'en-CA'
 
-let TOKEN = window.localStorage.getItem('token')
+let TOKEN = null
 
 const TOKEN_DATA = TOKEN ? jwtDecode(TOKEN)['0'] : {}
 
