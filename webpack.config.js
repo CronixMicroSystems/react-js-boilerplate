@@ -1,6 +1,7 @@
 const webpack = require('webpack')
 const HappyPack = require('happypack')
 const path = require('path')
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 const autoprefixer = require('autoprefixer')
 
 const sourcePath = path.join(__dirname, './src')
@@ -42,7 +43,7 @@ module.exports = function () {
   let methods = []
   if (isProd) {
     plugins.push(
-      new webpack.optimize.UglifyJsPlugin({
+      new UglifyJSPlugin({
         sourceMap: false,
         compress: {
           warnings: false,
@@ -89,8 +90,10 @@ module.exports = function () {
         },
         {
           test: /\.(jpe?g|png|gif|svg)$/i,
-          exclude: [/node_modules/],
-          use: ['url-loader?limit=10000', 'img-loader?progressive=true']
+          use: [
+            'url-loader?limit=10000',
+            'img-loader'
+          ]
         }
       ]
     },

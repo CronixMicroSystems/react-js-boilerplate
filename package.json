@@ -104,6 +104,8 @@
     "webpack": "^2.3.2",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-dev-server": "^2.3.0",
-    "webpack-hot-middleware": "^2.13.2"
+    "webpack-hot-middleware": "^2.13.2",
+    "uglify-js": "git://github.com/mishoo/UglifyJS2#harmony",
+    "uglifyjs-webpack-plugin": "^0.4.3"
   }
 }
